@@ -16,13 +16,14 @@ public class main {
         //calculateCircleViaRadius(6);
 
         //calculate average age by year
-        averageAgeByYear();
+        //averageAgeByYear();
 
         //calculate how much nutella is needed
         //howMuchNutellaIsNeeded();
 
         //calculate cube volume and surface area
         //calculateCube();
+
     }
 
     static void switchVariableValues() {
