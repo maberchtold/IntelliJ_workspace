@@ -9,5 +9,4 @@ public class NumbersFromOneToHundred {
         } while (i <= 100);
     }
 
-    //Hallo Vuk
 }

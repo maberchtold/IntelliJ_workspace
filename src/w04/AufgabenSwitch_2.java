@@ -2,7 +2,7 @@ package w04;
 
 import java.util.Scanner;
 
-public class DaysPerMonth {
+public class AufgabenSwitch_2 {
     public static void main(String[] args) {
         int month = 1;
 
