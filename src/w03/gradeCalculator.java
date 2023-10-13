@@ -11,7 +11,6 @@ public class gradeCalculator {
         float grade4;
         float average;
 
-
         Scanner scanner = new Scanner(System.in).useLocale( Locale.US );
 
         System.out.print("Enter the first grade: ");
