@@ -11,9 +11,6 @@ public class DaysPerMonth {
         System.out.print("Geben sie den gewünschten Monat ein: ");
         month = scanner.nextInt();
 
-        do {
-        } while ();
-
         switch (month){
             case 1:
                 System.out.println("Der Januar hat 31 tage.");
