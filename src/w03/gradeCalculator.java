@@ -10,7 +10,6 @@ public class gradeCalculator {
         float grade3;
         float grade4;
         float average;
-
         
         Scanner scanner = new Scanner(System.in).useLocale( Locale.US );
 
