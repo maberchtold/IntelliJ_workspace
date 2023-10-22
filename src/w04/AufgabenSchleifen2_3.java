@@ -2,7 +2,7 @@ package w04;
 
 public class AufgabenSchleifen2_3 {
     public static void main(String[] args) {
-        int number = 666;
+        int number = 7;
         int initalNumber = number;
         String binaryString = "";
         int remainder;

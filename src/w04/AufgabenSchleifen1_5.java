@@ -27,6 +27,7 @@ public class AufgabenSchleifen1_5 {
                 break;
             }
 
+
             if (nr2 < nr1) {
                 inputNotValid = true;
                 System.out.println("Die zweite Zahl ist kleiner als die erste Zahl!");
@@ -42,5 +43,6 @@ public class AufgabenSchleifen1_5 {
                 nr1++;
             } while (nr1 <= nr2);
         }
+
     }
 }
