@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class AufgabenRepetitorium3_3 {
     public static void main(String[] args) {
+        String dateInput = "";
         int date = 0;
         int dateLength = 0;
         int year = 0;
@@ -31,11 +32,13 @@ public class AufgabenRepetitorium3_3 {
 
         while (invalidDateInput){
             System.out.print("Geben Sie ein gewünschtes Datum im Format DDMMYYYY ein: ");
-            date = scanner.nextInt();
-            scanner.nextLine();
+            dateInput = scanner.nextLine();
 
-            dateLength = String.valueOf(date).length();
-            if(dateLength != 8){
+            date = Integer.parseInt(dateInput);
+
+            System.out.println("date Length: "+ dateInput.length());
+
+            if(dateInput.length() != 8){
                 System.out.println("Geben Sie ein gültiges Datum ein.");
             }else {
                 year = date % 10000;
