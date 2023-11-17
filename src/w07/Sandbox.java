@@ -2,12 +2,11 @@ package w07;
 
 public class Sandbox {
     public static void main(String[] args) {
-        float test1 = 5.5f;
-        float test2 = 4.5f;
-        float result = 0;
+        int [] test1 = {1,2,3,4,5,6};
 
-        result = test1/test2;
+        for(int wert: test1){
+            System.out.println(wert);
+        }
 
-        System.out.println(result);
     }
 }
