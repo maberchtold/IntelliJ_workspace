@@ -12,8 +12,8 @@ public class MehrdimensionaleArrays_2 {
             }
         }
 
-        for (int i = 1; i < matrixArray.length; i++) {
-            for (int j = 1; j < matrixArray[i].length; j++) {
+        for (int i = matrixArray.length - 1; i > 0; i--) {
+            for (int j = matrixArray[i].length - 1; j > 0; j--) {
                 System.out.printf("%4d", matrixArray[i][j]);
             }
             System.out.println();

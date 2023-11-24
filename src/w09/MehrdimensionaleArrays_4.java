@@ -25,7 +25,7 @@ public class MehrdimensionaleArrays_4 {
                     biggestRowNr = matrixArray[i][j];
                 }
 
-                sumArray[j] = sumArray[j] + matrixArray[i][j];
+                    sumArray[j] = sumArray[j] + matrixArray[i][j];
 
                 if (matrixArray[i][j] < 10) {
                     singleDigitArray[j]++;
@@ -56,7 +56,7 @@ public class MehrdimensionaleArrays_4 {
             if (i == matrixArray.length - 3) {
                 System.out.println();
                 for (int j = 0; j < matrixArray[i].length + 1; j++){
-                    System.out.printf("%4s", "---");
+                    System.out.printf("%4s", "----");
                 }
             }
             System.out.println();
