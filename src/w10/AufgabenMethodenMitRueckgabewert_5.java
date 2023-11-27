@@ -7,7 +7,7 @@ public class AufgabenMethodenMitRueckgabewert_5 {
         System.out.println(getArrValue(intArr, 0));
 
         //Search index
-        String search = "testus";
+        String search = "heehee";
         String[] strArr = {"hello","what", "heehee", "testus"};
         System.out.println(searchIndex(strArr, search));
 
@@ -25,16 +25,25 @@ public class AufgabenMethodenMitRueckgabewert_5 {
 
     public static int searchIndex(String[] arr, String search){
         int retrVal = -1;
-        int compareToVal = 0;
         String arrStr = "";
+        boolean correctIndex = true;
 
         for (int i = 0; i < arr.length; i++){
+            correctIndex = true;
             arrStr = arr[i];
-            compareToVal = search.compareTo(arrStr);
 
-            if (compareToVal == 0){
+            for (int  j = 0; j < arrStr.length(); j++){
+                if (arrStr.length() != search.length()){
+                    correctIndex = false;
+                } else if (arrStr.charAt(j) != search.charAt(j)) {
+                    correctIndex = false;
+                }
+            }
+
+            if (correctIndex){
                 retrVal = i;
             }
+
         }
 
         return retrVal;
