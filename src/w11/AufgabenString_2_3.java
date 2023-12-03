@@ -87,4 +87,5 @@ public class AufgabenString_2_3 {
         }
         System.out.println("Gesamt -> "+globalCounter);
     }
+
 }
