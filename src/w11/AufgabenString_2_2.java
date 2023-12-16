@@ -23,6 +23,8 @@ public class AufgabenString_2_2 {
     public static boolean hasDoubleConsonant(String word){
         boolean doubleConsonant = false;
 
+        word = word.toLowerCase();
+
         for (int i = 0; i < word.length() - 1; i++){
             if (word.charAt(i) == word.charAt(i+1)){
                 doubleConsonant = true;

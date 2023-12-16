@@ -49,6 +49,8 @@ public class AufgabenString_2_3 {
 
     public static String upperCase(String str){
         str = str.substring(0,1).toUpperCase() + str.substring(1).toLowerCase();
+
+        str.toUpperCase().charAt(0);
         return str;
     }
 

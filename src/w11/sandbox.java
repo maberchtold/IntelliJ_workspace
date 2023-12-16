@@ -7,7 +7,11 @@ public class sandbox {
         float c = 3.5f;
         float d = 6.6f;
 
-        System.out.println(sumCalc(a,d));
+        String str = "heehee";
+        char[] strArr;
+        strArr = str.toCharArray();
+        System.out.println(str.toUpperCase().charAt(0));
+        //System.out.println(sumCalc(a,d));
     }
 
     public static float sumCalc(float a, float b){
