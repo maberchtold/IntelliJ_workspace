@@ -1,4 +1,4 @@
-package w09;
+package w09_Mehrdimensionale_Arrays;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package w09;
+package w09_Mehrdimensionale_Arrays;
 
 public class MehrdimensionaleArrays_2 {
     static final int MATRIX_ROWS = 10;

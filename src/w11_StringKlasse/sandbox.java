@@ -1,4 +1,4 @@
-package w11;
+package w11_StringKlasse;
 
 public class sandbox {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package w11;
+package w11_StringKlasse;
 
 import java.util.Random;
 
